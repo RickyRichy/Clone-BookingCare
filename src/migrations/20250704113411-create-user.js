@@ -12,7 +12,7 @@ module.exports = {
       email: {
         type: Sequelize.STRING
       },
-      pwd: {
+      password: {
         type: Sequelize.STRING
       },
       firstName: {
@@ -36,7 +36,7 @@ module.exports = {
       roleID: {
         type: Sequelize.STRING
       },
-      positonID: {
+      positionID: {
         type: Sequelize.STRING
       },
       createdAt: {
